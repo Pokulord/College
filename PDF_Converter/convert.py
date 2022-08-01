@@ -1,9 +1,12 @@
 #! Конвертер из DOCX в PDF
+#! Программу необходимо поместить в папку с файлами
 
 import os
 import time
 
-from docx2pdf import convert
+# Модуль, необходимый для ковертации файлов из DOCX в PDF
+
+from docx2pdf import convert # pip install docx2pdf
 
 
 class Convert:
@@ -16,14 +19,15 @@ class Convert:
         files_in_dir = os.listdir()
         print(files_in_dir)
         files_to_conv = [i for i in files_in_dir if i.endswith('.docx')]
+        # Проверка на наличие файлов формата .docx в папке
         if len(files_to_conv) == 0:
             print('Не обнаружено файлов с расширением DOCX')
-            return 
+            return
         for i in files_to_conv:
             new_name = i.split('.docx')[0] + '.pdf'
-            convert(i,f'results\\{new_name}')
+            convert(i, f'results\\{new_name}')
             print(f'Файл {new_name} сконвертирован')
-        print('-'*40)
+        print('-' * 40)
         print('Работа программы завершена')
         time.sleep(4)
 
