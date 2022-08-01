@@ -1,0 +1,153 @@
+{
+    "acoustic": {
+        "guitars": [
+            {
+                "name": "YAMAHA F310",
+                "link_muztorg": "https://www.muztorg.ru/product/A023482",
+                "link_skif": "https://skifmusic.ru/product/62236-akusticheskaya-gitara-yamaha-f310",
+                "link_popmusic": "https://pop-music.ru/products/gitara-akusticheskaya-yamaha-f-310-nat-f310-888880017135/",
+                "image": "guitars/YAMAHA F310.png",
+                "mark": "YAMAHA"
+            },
+            {
+                "name": "FENDER CD-60",
+                "link_muztorg": "https://www.muztorg.ru/product/A091210",
+                "link_skif": "https://skifmusic.ru/product/427897-akusticheskaya-gitara-fender-cd-60-dreadnought-v3-ds-blk-wn",
+                "link_popmusic": "https://pop-music.ru/products/akustika-fender-cd-60-dread-v3-ds-blk-wn-888880026081/",
+                "image": "guitars/FENDER CD-60.png",
+                "mark": "FENDER"
+            },
+            {
+                "name": "MARTINEZ W-91 C",
+                "link_muztorg": "https://www.muztorg.ru/product/A097767",
+                "link_skif": "https://skifmusic.ru/product/427728-akusticheskaya-gitara-martinez-w-91c-n",
+                "link_popmusic": "https://pop-music.ru/products/gitara-akusticheskaya-martinez-w-91c-n-888880003998/",
+                "image": "guitars/MARTINEZ W-91 C.png",
+                "mark": "MARTINEZ"
+            },
+            {
+                "name": "IBANEZ PF1512-NT",
+                "link_muztorg": "https://www.muztorg.ru/produ%D1%81t/A041076",
+                "link_skif": "https://skifmusic.ru/product/476579-akusticheskaya-gitara-ibanez-pf1512-natural-high-gloss",
+                "link_popmusic": "https://pop-music.ru/products/akusticheskaya-gitara-ibanez-pf1512-nt-888880017341/",
+                "image": "guitars/IBANEZ PF1512-NT.png",
+                "mark": "IBANEZ"
+            },
+            {
+                "name": "EPIPHONE Starling Ebony",
+                "link_muztorg": "https://www.muztorg.ru/product/A123569",
+                "link_skif": "https://skifmusic.ru/product/469699-akusticheskaya-gitara-epiphone-starling-ebony",
+                "link_popmusic": "https://pop-music.ru/products/akusticheskaya-gitara-epiphone-starling-ebony-888880029250/",
+                "image": "guitars/EPIPHONE Starling Ebony.png",
+                "mark": "EPIPHONE"
+            },
+            {
+                "name": "VESTON F-38/NT",
+                "link_muztorg": "https://www.muztorg.ru/produ\u0441t/A073577",
+                "link_skif": "https://skifmusic.ru/product/430902-akusticheskaya-gitara-veston-f-38-nt",
+                "link_popmusic": "https://pop-music.ru/products/akusticheskaya-gitara-veston-f-38-nt-888880025040/",
+                "image": "guitars/VESTON F-38.png"
+            }
+        ]
+    },
+    "electric": {
+        "guitars": [
+            {
+                "name": "FENDER SQUIER BULLET",
+                "link_muztorg": "https://www.muztorg.ru/product/A076959",
+                "link_skif": "https://skifmusic.ru/product/394838-elektrogitara-fender-squier-bullet-stratocaster-tremolo-laurel-fb-brown-sunburst",
+                "link_popmusic": "https://pop-music.ru/products/elekrogitara-fender-squier-bullet-trem-bsb-888880028449/",
+                "image": "guitars/FENDER SQUIER BULLET TREM BSB.png",
+                "mark": "FENDER"
+            },
+            {
+                "name": "IBANEZ GRG121DX-BKF",
+                "link_muztorg": "https://www.muztorg.ru/product/A051984",
+                "link_skif": "https://skifmusic.ru/product/372756-elektrogitara-ibanez-gio-grg121dx-black-flat",
+                "link_popmusic": "https://pop-music.ru/products/elektrogitara-ibanez-gio-grg121dx-bkf-black-flat-888880021494/",
+                "image": "guitars/IBANEZ GRG121DX-BKF.png",
+                "mark": "IBANEZ"
+            },
+            {
+                "name": "EPIPHONE Les Paul Special",
+                "link_muztorg": "https://www.muztorg.ru/produ%D1%81t/A064659",
+                "link_skif": "https://skifmusic.ru/product/395470-elektrogitara-epiphone-les-paul-special-ve-vintage-sunburst",
+                "link_popmusic": "https://pop-music.ru/products/elektogitara-epiphone-les-paul-special-ve-ebony-vintage-888880024511/",
+                "image": "guitars/EPIPHONE Les Paul Special Satin.png",
+                "mark": "EPIPHONE"
+            },
+            {
+                "name": "JACKSON JS1X RR Minion Satin Black",
+                "link_muztorg": "https://www.muztorg.ru/product/A083336",
+                "link_skif": "",
+                "link_popmusic": "https://pop-music.ru/products/elektrogitara-jackson-js1x-rr-minion-ah-fb-sbk-888880029331/",
+                "image": "guitars/JACKSON JS1X RR Minion Satin Black.png",
+                "mark": "JACKSON"
+            },
+            {
+                "name": "IBANEZ GRG140-WH",
+                "link_muztorg": "https://www.muztorg.ru/produ\u0441t/A047166",
+                "link_skif": "https://skifmusic.ru/product/395466-elektrogitara-ibanez-gio-grg140-white",
+                "link_popmusic": "https://pop-music.ru/products/elektrogitara-ibanez-gio-grg140-wh-888880025057/",
+                "image": "guitars/IBANEZ GRG140-WH.png"
+            },
+            {
+                "name": "ARIA 615-MK2 BKDM",
+                "link_muztorg": "empty",
+                "link_skif": "https://skifmusic.ru/product/466794-elektrogitara-aria-615-mk2-bkdm",
+                "link_popmusic": "https://pop-music.ru/products/elektrogitara-aria-615-mk2-bkdm-888880028626/",
+                "image": "guitars/IBANEZ GSR200-BK.png"
+            }
+        ]
+    },
+    "bass": {
+        "guitars": [
+            {
+                "name": "YAMAHA TRBX174 BLACK",
+                "link_muztorg": "https://www.muztorg.ru/product/A050477",
+                "link_skif": "https://skifmusic.ru/product/287007-bas-gitara-yamaha-trbx-174-black",
+                "link_popmusic": "",
+                "image": "guitars/YAMAHA TRBX174 BLACK.png",
+                "mark": "YAMAHA"
+            },
+            {
+                "name": "IBANEZ GSR200-BK",
+                "link_muztorg": "https://www.muztorg.ru/product/A042351",
+                "link_skif": "https://skifmusic.ru/product/18598-bas-gitara-ibanez-gsr200-black",
+                "link_popmusic": "https://pop-music.ru/products/bas-gitara-ibanez-gio-gsr200-bk-888880020873/",
+                "image": "guitars/IBANEZ GSR200-BK.png",
+                "mark": "IBANEZ"
+            },
+            {
+                "name": "Fernandes RJB380 3SB",
+                "link_muztorg": "https://www.muztorg.ru/product/A095813",
+                "link_skif": "https://skifmusic.ru/product/432570-bas-gitara-fernandes-rjb380-3sb",
+                "link_popmusic": "",
+                "image": "guitars/Fernandes RJB380 3SB.png",
+                "mark": "FERNANDES"
+            },
+            {
+                "name": "Cort C5-Plus",
+                "link_muztorg": "https://www.muztorg.ru/product/A116416",
+                "link_skif": "https://skifmusic.ru/product/478346-bas-gitara-cort-c5-plus-ovmh-abb-artisan-series",
+                "link_popmusic": "https://pop-music.ru/products/bas-gitara-cort-c5-plus-zbmh-otab-888880028036/",
+                "image": "guitars/Cort C5-Plus.png",
+                "mark": "CORT"
+            },
+            {
+                "name": "Cort Action-HH4-TLB",
+                "link_muztorg": "https://www.muztorg.ru/produ\u0441t/A116431",
+                "link_skif": "https://skifmusic.ru/product/478355-bas-gitara-cort-action-hh4-tlb-action-series",
+                "link_popmusic": "https://pop-music.ru/products/bas-gitara-cort-action-hh4-tlb-888880030165/",
+                "image": "guitars/Cort Action-HH4-TLB.png"
+            },
+            {
+                "name": "5-\u0421\u0422\u0420\u0423\u041d\u041d\u0410\u042f CORT A5 ULTRA ASH ETCHED NATURAL BLACK",
+                "link_muztorg": "empty",
+                "link_skif": "https://skifmusic.ru/product/463598-bas-gitara-5-strunnaya-cort-a5-ultra-ash-etched-natural-black",
+                "link_popmusic": "empty",
+                "image": "guitars/YAMAHA TRBX174 BLACK.png"
+            }
+        ]
+    }
+}
