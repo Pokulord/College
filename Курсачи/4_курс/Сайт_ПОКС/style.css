@@ -1,0 +1,461 @@
+:root {
+  --border-radius:3px;
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
+  --butshadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  --butgradient:linear-gradient(90deg, rgba(153,255,102,1) 0%, rgba(5,111,6,0.9923319669664741) 100%, rgba(0,212,255,1) 100%);
+}
+
+body {
+    /*Убираем "разрывы" от края*/
+    padding:0;
+    margin:0;
+    font-family:'Montserrat',regular;
+}
+
+.container {
+  width: 1123px;
+   /*по центру*/
+  margin: 0 auto;
+
+}
+
+.header {
+    background: url(img/back_1.jpg) no-repeat center top;
+    top:0px;
+    right:0px;
+}
+.burger {
+  display: none;
+}
+.admin_good {
+  margin-left: 400px;
+  margin-top: 30px;
+}
+.nav {
+  padding-top:30px;
+  display:flex;
+}
+ul,li {
+  display: block;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+.menu li a {
+  text-decoration: none;
+  font-size:33px;
+  color:black;
+  margin-right:36px;
+  border: solid 4px black;
+  border-radius: 30px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  /*Анимация*/
+  transition: all 0.3s ease;
+}
+
+.icon {
+  margin-right:65px;
+}
+
+.menu li a:hover {
+  background: #FFA500;
+  color: #000;
+}
+
+.description h1 {
+  padding-top: 100px;
+  font-size: 48px;
+}
+
+.description h2 {
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.description {
+  height: 700px;
+}
+
+.about h2 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+
+.why {
+  display: flex;
+}
+
+.why div {
+  font-size: 40px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.why-box div {
+  margin-bottom: 30px;
+}
+
+.why-item {
+  margin-bottom: 40px;
+}
+
+.partners {
+  display: flex ;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.partners div {
+  margin-right: 200px;
+  width: 10%;
+  margin-bottom: 70px;
+}
+
+.mid_p {
+  margin-left: 70px;
+}
+
+.partners img {
+  transition: all 0.5s ease ;
+}
+.partners img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 45px;
+  width: 95%;
+  max-width: 1200px;
+}
+
+.products-element__image {
+  width: 100%;
+  height: 270px;
+  margin-top: var(--spacing-medium);
+  /*"Подтягиваем" изображение*/
+  object-fit: contain;
+  transition: all 0.2s ease;
+}
+
+.products-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: var(--butshadow);
+}
+.admin {
+  margin-left: 40px;
+}
+.admin:hover {
+  background-color: #81cd4a;
+}
+.products-element__name {
+  margin-bottom: auto;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.btn-secondary {
+  margin-right: 20px;
+}
+.products-element__price {
+  margin-top: var(--spacing-medium);
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.products-element__btn {
+  margin-top: var(--spacing-medium);
+  width:100px;
+  margin-left: 120px;
+  margin-left:10px;
+  font-size: 14px;
+  border: 1px solid black;
+  color : black;
+  transition: all 0.3s ease;
+}
+.catalog-header {
+  font-size: 25px;
+}
+
+.btn btn-primary{
+
+}
+.products-element__btn:hover {
+  background-color: #f1b544f1;
+  color:white;
+}
+.form-group .form-control {
+  width:30%;
+  margin: 0 auto;
+}
+.products-element__image:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform : scale(1.1);
+  transform: scale(1.1);
+  
+}
+.cart_img{
+  object-fit: contain;
+  scale: 100%;
+  height: 150px;
+  width: 100px;
+
+}
+.form_reg {
+  margin-top: 30px;
+}
+
+.msg {
+  border: 2px solid #FFA500;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 400px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+.toreg{
+  margin-left:400px;
+}
+.linktolog {
+  color: slateblue;
+  font-weight: bold;
+}
+#signinbut {
+  margin-left: 400px;
+}
+.label {
+  margin-left: 400px;
+}
+.reviews {
+  margin-top:100px;
+}
+.reviews h3 {
+  font-size: 25px;
+}
+
+footer {
+  padding-top: 130px;
+}
+
+
+.footer-item h3 {
+  font-size: 23px;
+}
+
+.tel {
+  font-size: 35px;
+  margin-right: 50px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+}
+.images img  {
+  object-fit: contain;
+  width:50%;
+  height: 50%;
+}
+
+.images {
+  display: flex;
+}
+
+.desc {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.products-element__btn_active {
+  background: rgb(153,255,102);
+  background: var(--butgradient);
+}
+
+.cart {
+  max-height: 50px;
+}
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:100%;
+	background:url(../img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+@media (max-width:400px) {
+  .menu {
+    position: fixed;
+    background-color: #f7f7f7;
+    top:-100%;
+    left:0;
+    width: 100%;
+    height: 100%;
+    margin-top:0;
+    display: table-column;
+    transition: all 0.3s ease-in;
+  }
+  .menu.active{
+    top:0;
+  }
+  .menu li {
+    padding-top: 30px;
+  }
+  .menu li a {
+    font-size: 25px;
+    border: none;
+    padding-left: 100px;
+    position: relative;
+  }
+  .man {
+    display: none;
+  }
+  .description h1 {
+    font-size:27px;
+    padding-top: 10px;
+  }
+  .description h2 {
+    font-size: 26px;
+  }
+  .container {
+    width: 300px;
+  }
+
+.btn .btn-secondary {
+    margin-left: 40px;
+  }
+  .burger {
+    display: block;
+    position: fixed;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    margin-left: 300px;
+  }
+  .burger::before,
+  .burger::after {
+    content: " ";
+    background-color: black;
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    left:0;
+    transition: all 0.3s ease-in;
+  }
+  .burger::before {
+    top:1px;
+  }
+  .burger:after {
+    bottom:0;
+  }
+  .burger span {
+    position: absolute;
+    background-color: #000;
+    left:0;
+    width: 100%;
+    height: 2px;
+    top:10px;
+    transition: all 0.3s ease-in;
+  }
+  .icon  {
+    max-width: 70%;
+  }
+  .burger.active:before {
+    transform: rotate(45deg);
+    top:9px;
+  }
+  .burger.active:after{
+    transform: rotate(-45deg);
+    bottom:9px;
+  }
+  .burger.active span {
+    display: none;
+  }
+  .menu li a:hover {
+    background: none;
+    color: none;
+  }
+  .about h2 {
+    font-size: 27px;
+  }
+  .why-box div {
+    font-size: 20px;
+  }
+  .partners div img {
+    max-width: 300px;
+    object-fit: contain;
+    margin-left: 0px;
+  }
+  .products-container {
+    width: 50%;
+  }
+  .footer-item h3 {
+    font-size: 1.17em;
+  }
+  .contact-links {
+    flex-direction: column;
+  }
+  .tel {
+    font-size: 25px;
+  }
+  .contact-links img {
+    max-width: 20%;
+  }
+  .menu li a:before {
+    content: '';
+    width:50%;
+    height: 2px;
+    background-color: #FFA500;
+    position: absolute;
+    bottom: -5px;
+    transform: scaleX(0);
+  }
+  .menu li a:hover:before {
+    content: '';
+    width:50%;
+    height: 2px;
+    background-color: #FFA500;
+    position: absolute;
+    bottom: -5px;
+    transform: scaleX(1);
+    transition: transform 0.25s;
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <button id="toggle" onclick="myFunction()">on</button>
+		<button id="toggle" onclick="myFunction()">on</button>
+		<button id="toggle" onclick="myFunction()">on</button>
+        <script>
+
+            function myFunction() {
+                var change = document.getElementById("toggle");
+                if (change.innerHTML == "on")
+                {
+                    change.innerHTML = "off";
+                }
+                else {
+                    change.innerHTML = "on";
+                }
+            }
+
+        </script>
+    </body>
+</html>
